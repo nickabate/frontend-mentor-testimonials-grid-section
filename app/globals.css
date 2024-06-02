@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1. "Verified Graduate" has the same color as the person's name with 50% opacity */
+/* 2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity */
+
+body {
+  font-size: 13px;
+  @apply text-white
+}
+
+@layer utilities {
+  .flexCenter {
+    @apply flex items-center justify-center;
+  }
+}
