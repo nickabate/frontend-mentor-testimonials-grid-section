@@ -12,6 +12,7 @@ export default function Home() {
 							review={testimonial}
 							backgroundColor={Constants.backgroundColorMap[index]}
 							gridConfig={Constants.gridConfig[index]}
+							backgroundImage={index === 0 ? "bg-quotation-mark" : ""}
 						/>
 					);
 				})}

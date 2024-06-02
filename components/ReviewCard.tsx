@@ -10,7 +10,6 @@ type ReviewCardProps = {
 	};
 	backgroundColor: string;
 	backgroundImage?: string;
-	imageBorder?: string;
 	gridConfig: {
 		user: string;
 		colStart: string;
@@ -23,7 +22,6 @@ const ReviewCard = ({
 	review,
 	backgroundColor,
 	backgroundImage,
-	// imageBorder,
 	gridConfig,
 }: ReviewCardProps) => {
 	const { callout, name, quote, title, image } = review;
@@ -39,7 +37,7 @@ const ReviewCard = ({
 		<div
 			className={`${
 				backgroundImage ? backgroundImage : ""
-			} bg-no-repeat bg-[top_right_1rem] ${backgroundColor} rounded-lg ${colStart} ${rowStart} ${span} shadow-xl`}
+			} bg-no-repeat bg-[top_right_1rem] laptop:bg-[top_right_4rem] ${backgroundColor} rounded-lg ${colStart} ${rowStart} ${span} shadow-xl`}
 		>
 			<div className={`p-6 md:p-8 flex flex-col gap-4 ${secondaryFont}`}>
 				<div className="flex gap-4">

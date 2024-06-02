@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View on Frontend Mentor]()
-- Live Site URL: [View on Vercel]()
+- Solution URL: [View on Frontend Mentor](https://www.frontendmentor.io/solutions/testimonials-grid-section-nextjstailwindtypescript-tvdTM4rKpX)
+- Live Site URL: [View on Vercel](https://frontend-mentor-testimonials-grid-section-nick-abate.vercel.app/)
 
 ## My process
 
